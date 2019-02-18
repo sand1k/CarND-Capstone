@@ -2,6 +2,15 @@ This is the project repo for the final project of the Udacity Self-Driving Car N
 
 Please use **one** of the two installation options, either native **or** docker installation.
 
+### Project Description
+
+To implement the project I followed the steps from walkthrough materials:
+1. Implemented simple waypoint updater and DBW Node as described in lesson materials. The one thing I had to do make my code work was to change rate of waypoint updater to 20Hz. If it is set to 50Hz, green dots of the trajectory do not disappear in the simulator.
+
+2. Implemented traffic light detection node as described in walkthrough materials. I haven't implemented traffic light classiffier. This would be my tehcnical debt, because I ran out of time in my studying schedule. If it possible, I would like to graduate with dummy implementation and finish the classifier later, otherwise I'll go to 4 weeks extension.
+
+3. Implemented full wyapoint updater node, which stops the car in front of red traffic light as described in walkthrough materials.
+
 ### Native Installation
 
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).

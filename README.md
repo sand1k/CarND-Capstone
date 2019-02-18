@@ -11,6 +11,8 @@ To implement the project I followed the steps from walkthrough materials:
 
 3. Implemented full wyapoint updater node, which stops the car in front of red traffic light as described in walkthrough materials.
 
+P. S. This is an individual submission of Andrey Shitov (sand1k@yandex.ru).
+
 ### Native Installation
 
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
